@@ -7,7 +7,7 @@ import { useChat } from 'ai/react';
 
 function SendMessages() {
     const { messages, input, handleInputChange, handleSubmit } = useChat({
-        api: '/api/OpenAI'
+        api: '/OpenAI'
       })
    
      
